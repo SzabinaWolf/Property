@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "property-b0f49": {
+      "hosting": {
+        "property": [
+          "property-b0f49"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "property-b0f49"
+  }
+}

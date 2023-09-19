@@ -1,0 +1,18 @@
+  onView(data:any){
+    this.propertyModelObj.id = data.id;
+    this.formValue.controls['ptitle'].setValue(data.ptitle);
+    this.formValue.controls['pprice'].setValue(data.pprice);
+    this.formValue.controls['plocation'].setValue(data.plocation);
+    this.formValue.controls['pdetails'].setValue(data.pdetails);
+    this.api.addListing(this.propertyModelObj.id).subscribe((res)=>{
+      console.log(res);
+      ;
+      let ref = document.getElementById('clear');
+    ref?.click();
+    this.formValue.reset();
+    this.getAllProperty();
+    })
+    
+  }
+
+<fa-icon type="button" style="color: lightskyblue" [icon]="['fas', 'square-check']" routerLink="/view"></fa-icon>

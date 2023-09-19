@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "id": 2,
+      "ptitle": "Családi ház",
+      "pprice": "42000000",
+      "plocation": "Csenger",
+      "pdetails": "Szépen felújított, 5 szobás, 130 nm-es ház eladó."
+    },
+    {
+      "id": 3,
+      "ptitle": "Családi ház",
+      "pprice": "42000000",
+      "plocation": "Csenger",
+      "pdetails": "Szépen felújított, 5 szobás, 130 nm-es ház eladó."
+    },
+    {
+      "id": 4,
+      "ptitle": "Családi ház",
+      "pprice": "42000000",
+      "plocation": "Csenger",
+      "pdetails": "Szépen felújított, 5 szobás, 130 nm-es ház eladó."
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "name": "Kata Vigh",
+      "email": "katavigh@gmail.com",
+      "mobile": "+3670000000",
+      "password": "Bubu2002"
+    }
+  ]
+}

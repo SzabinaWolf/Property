@@ -1,0 +1,9 @@
+.card{
+    border: 1px solid cadetblue;
+    width: 550px;
+    padding: 45px;
+    position:absolute;
+    top: 15%;
+    left: 35%;
+}
+
